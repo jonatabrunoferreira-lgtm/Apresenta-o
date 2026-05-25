@@ -1,1 +1,29 @@
-*{text-align: center;}
+h1{font-size:100PX;
+ color: white;    
+}
+
+
+.divisao{ text-align: center;
+ background-color: rgb(25, 61, 21);
+ border: solid rgb(255, 255, 255);
+ border-radius: 100px;
+}
+
+button{
+
+height: 50px;
+width: 100px;
+
+border-radius: 10px;
+margin: 10px;
+
+}
+button:hover{
+    background-color: blue;
+}
+
+body{
+
+background-color: black;
+
+}
