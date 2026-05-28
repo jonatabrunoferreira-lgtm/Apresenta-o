@@ -1,4 +1,5 @@
-.tit{font-size:50PX;
+*{font-family: Arial, Helvetica, sans-serif;}
+.tit{font-size:70PX;
  color: white;    
 }
 
@@ -6,7 +7,7 @@
 .divisao{  text-align: center;
  background-color: rgb(0, 18, 56);
  border: solid rgb(255, 255, 255);
- border-radius: 100px;
+ border-radius: 20px;
  box-shadow: 0 0 100000px rgb(0, 0, 31);
 padding: 10px;
  
@@ -48,6 +49,7 @@ display: flex;
 .expric:hover{
 border: solid 3px  rgb(0, 18, 56);
  transform: scale(1.1);
+ box-shadow: 0 0 0 1px rgb(0, 26, 255);
 }
 
 .divi{ text-align: center;
@@ -74,7 +76,18 @@ width: 110px;
 border-radius: 5px;
  border: solid 3px  rgb(6, 0, 90);
  background-color: rgb(255, 255, 255);
- 
 }
 
-.divisorio{ background-color: brown;}
+.divisorio{ 
+    
+    padding: 0px;
+ background-image: url("ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_18_48.png");
+    height: 500px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .bode{background-color: rgb(255, 255, 255);
+    background-image: url("ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_18_48.png");
+  background-size: cover;
+    background-repeat: no-repeat;}
