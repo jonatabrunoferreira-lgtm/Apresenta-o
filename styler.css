@@ -1,5 +1,5 @@
 *{font-family: Arial, Helvetica, sans-serif;}
-.tit{font-size:50PX;
+.tit{font-size:70PX;
  color: white;    
 }
 
@@ -78,4 +78,16 @@ border-radius: 5px;
  background-color: rgb(255, 255, 255);
 }
 
-.divisorio{ background-color: brown;}
+.divisorio{ 
+    
+    padding: 0px;
+ background-image: url("ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_18_48.png");
+    height: 500px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .bode{background-color: rgb(255, 255, 255);
+    background-image: url("ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_18_48.png");
+  background-size: cover;
+    background-repeat: no-repeat;}
