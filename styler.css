@@ -120,6 +120,9 @@ body {
    float: left;
    width: 45%;
    padding: 10px;
+   font-size: 25px;
+   border: solid;
+   border-radius: 10px;
 }
 
 .coluna2 {
