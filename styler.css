@@ -29,15 +29,16 @@ background-color: rgb(204, 204, 204);
 
 .expric{ 
 
- margin: ;
-height:;
-width: ;
+ margin:100px ;
+height:100px;
+width: 500px;
 border: solid 1px  rgb(0, 18, 56);
 box-shadow: 0 0 1px  rgb(0, 18, 56);
 background-color: rgb(255, 255, 255);
 border-radius: 10px;
 color:  rgb(0, 18, 56);
 text-align: center;
+justify-content: center;
 
 }
 
@@ -93,7 +94,17 @@ border-radius: 5px;
 
     .bode{
     background-image: url("ChatGPT\ Image\ 29\ de\ mai.\ de\ 2026\,\ 09_01_08.png");
-    .bode{background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     background-image: url(/IMG/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_07_14.png);
   background-size: cover;
     background-repeat: no-repeat;}
+    .sloga{
+   
+      padding: 100px;
+      margin:0px ;
+      font-size: 60px;
+      background-color: rgb(248, 248, 248);
+      
+      width: 700px;
+    }
+    span{color: rgb(0, 0, 71);}
