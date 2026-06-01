@@ -1,99 +1,135 @@
-*{font-family: Arial, Helvetica, sans-serif;}
-.tit{font-size:70PX;
- color: white;    
+* {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.tit {
+   font-size: 70PX;
+   color: white;
 }
 
 
-.divisao{  text-align: center;
- background-color: rgb(0, 18, 56);
- border: solid rgb(255, 255, 255);
- border-radius: 20px;
- box-shadow: 0 0 100000px rgb(0, 0, 31);
-padding: 10px;
- 
- 
+.divisao {
+   text-align: center;
+   background-color: rgb(0, 18, 56);
+   border: solid rgb(255, 255, 255);
+   border-radius: 20px;
+   box-shadow: 0 0 100000px rgb(0, 0, 31);
+   padding: 10px;
+
+
 }
 
 
 
 
-button:hover{
-    background-color: rgb(255, 255, 255);
+button:hover {
+   background-color: rgb(255, 255, 255);
 }
 
-body{
- 
-background-color: rgb(204, 204, 204);
 
-}
 
-.expric{ 
+.expric {
 
- margin: ;
-height:;
-width: ;
-border: solid 1px  rgb(0, 18, 56);
-box-shadow: 0 0 1px  rgb(0, 18, 56);
-background-color: rgb(255, 255, 255);
-border-radius: 10px;
-color:  rgb(0, 18, 56);
-text-align: center;
+   margin: 10px;
+
+   width: 1000px;
+   border: solid 1px rgb(0, 18, 56);
+   box-shadow: 0 0 1px rgb(0, 18, 56);
+   background-color: rgb(255, 255, 255);
+   border-radius: 10px;
+   color: rgb(0, 18, 56);
+   text-align: center;
 
 }
 
-.pai{
-display: flex;
- gap: 1px; 
+.pai {
+   display: flex;
+   gap: 1px;
 }
 
-.expric:hover{
-border: solid 3px  rgb(0, 18, 56);
- transform: scale(1.1);
- box-shadow: 0 0 0 1px rgb(0, 26, 255);
+.expric:hover {
+   border: solid 3px rgb(0, 18, 56);
+   transform: scale(1.1);
+   box-shadow: 0 0 0 1px rgb(0, 26, 255);
 }
 
-.divi{ text-align: center;
- background-color: rgb(0, 18, 56);
- border: solid rgb(255, 255, 255);
-  color: aliceblue;
- box-shadow: 0 0 100000px rgb(0, 0, 31);
- 
- justify-content: center; }
+.divi {
+   text-align: center;
+   background-color: rgb(0, 18, 56);
+   border: solid rgb(255, 255, 255);
+   color: aliceblue;
+   box-shadow: 0 0 100000px rgb(0, 0, 31);
 
-
- button{
- border-radius: 5px;
- margin: 5px;
- color: rgb(0, 0, 0);
- border: solid 1px  rgb(0, 18, 56);
- height: 60px;
-width: 110px;
-
-
- }
-
- button:hover{ transform: scale(1.1);
-border-radius: 5px;
- border: solid 1px  rgb(255, 255, 255);
- background-color: rgb(0, 37, 139);
- color: aliceblue;
+   justify-content: center;
 }
 
-.divisorio{ 
-    padding: 0px;
- background-image: url("");
- background-image: url(/IMG/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_18_48.png);
-    height: 500px;
-    
-   
- background-image: url("ChatGPT\ Image\ 29\ de\ mai.\ de\ 2026\,\ 09_01_08.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
 
-    .bode{
-    background-image: url("ChatGPT\ Image\ 29\ de\ mai.\ de\ 2026\,\ 09_01_08.png");
-    .bode{background-color: rgb(255, 255, 255);
-    background-image: url(/IMG/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_07_14.png);
-  background-size: cover;
-    background-repeat: no-repeat;}
+button {
+   border-radius: 5px;
+   margin: 5px;
+   color: rgb(0, 0, 0);
+   border: solid 1px rgb(0, 18, 56);
+   height: 60px;
+   width: 110px;
+
+
+}
+
+button:hover {
+   transform: scale(1.1);
+   border-radius: 5px;
+   border: solid 1px rgb(255, 255, 255);
+   background-color: rgb(0, 37, 139);
+   color: aliceblue;
+}
+
+.divisorio {
+   padding: 0px;
+   background-image: url("");
+   background-image: url(/IMG/ChatGPT\ Image\ 28\ de\ mai.\ de\ 2026\,\ 11_18_48.png);
+   height: 500px;
+
+
+   background-image: url("ChatGPT\ Image\ 29\ de\ mai.\ de\ 2026\,\ 09_01_08.png");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+
+
+
+body {
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: rgb(204, 204, 204);
+}
+
+.carrossel {
+   max-width: 400px;
+   overflow: hidden;
+   border-radius: 10px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.slides {
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+   max-width: 100%;
+   object-fit: contain;
+   display: block;
+}
+.coluna1{
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+.coluna2{
+   float: right;
+    width: 45%;
+    padding: 10px;
+}
