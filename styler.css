@@ -173,13 +173,16 @@ justify-content: center;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+    
 }
 
 .texto{
     flex: 1;
+    
 }
 
 .texto h2{
+   
     font-size: 42px;
     color: #00087e;
     margin-bottom: 20px;
@@ -188,8 +191,11 @@ justify-content: center;
 .texto p{
     font-size: 18px;
     line-height: 1.8;
-    color: #555;
+    color: #000000;
     margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
 }
 
 
@@ -207,4 +213,44 @@ justify-content: center;
     width: 100%;
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.bloco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 60px 10%;
+}
+
+.imagem,
+.texto{
+   text-align: center;
+    flex: 1;
+}
+
+.imagem img{
+    width:500PX ;
+    height: 400PX;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    border:outset 2px black;
+}
+
+.texto h2{
+    font-size: 38px;
+    color: #0d47a1;
+    margin-bottom: 20px;
+}
+
+.texto p{
+    font-size: 18px;
+    color: #555;
+    line-height: 1.8;
+}
+
+@media(max-width: 768px){
+    .bloco{
+        flex-direction: column;
+        text-align: center;
+    }
 }
