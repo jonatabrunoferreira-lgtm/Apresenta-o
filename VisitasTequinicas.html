@@ -21,58 +21,127 @@
 
         <a href="LinhadoTempo.html"><button>Linha do Tempo</button></a>
     </div>
-    <style>
-#galeria {
-width:500px;
-height:
-400px;
-    position: relative;
-}
-
-#galeria img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    display: none;
-}
-
-#galeria img.ativa {
-    display: block;
-}
-</style>
-</head>
-<body>
-
-<div id="galeria">
-    <img src="" class="ativa">
-    <img src="/IMG/WhatsApp Image 2026-06-01 at 07.38.25.jpeg">
-    <div class="text-box" id="textBox">Texto da imagem 1</div>
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    
-</div>
 
 
-
-<script>
-const imagens = document.querySelectorAll("#galeria img");
-let atual = 0;
-
-setInterval(() => {
-    imagens[atual].classList.remove("ativa");
-
-    atual++;
-    if (atual >= imagens.length) {
-        atual = 0;
-    }
-
-    imagens[atual].classList.add("ativa");
-}, 2000); 
-</script>
 
 </body>
 
+
+<section class="viagens-tecnicas">
+    <div class="conteudo">
+        <div class="texto">
+            <h2>Viagens Técnicas</h2>
+            <p>
+                As viagens técnicas proporcionam aos alunos a oportunidade de
+                conhecer empresas, indústrias e instituições relacionadas à sua
+                área de formação, conectando a teoria aprendida em sala de aula
+                com a prática do mercado de trabalho.
+            </p>
+
+            <p>
+                Durante essas visitas, os estudantes podem observar processos,
+                tecnologias e métodos utilizados por profissionais, ampliando
+                seus conhecimentos e adquirindo experiências valiosas para sua
+                carreira.
+            </p>
+
+
+        </div>
+
+
+    </div>
+    <style>
+        /* body{
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+} */
+
+        .container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        #galeria {
+            width: 500px;
+            height: 350px;
+            position: relative;
+        }
+
+        #galeria img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            display: none;
+            border-radius: 10px;
+        }
+
+        #galeria img.ativa {
+            display: block;
+        }
+
+        .text-box {
+            width: 300px;
+            font-size: 20px;
+            padding: 20px;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div id="galeria">
+                <img src="/IMG/Faculdade 1.jpg" class="ativa" alt="Imagem 1">
+                <img src="/IMG/Faculdade 1,1.jpg" alt="Imagem 2">
+                <img src="/IMG/Parque aquatico.jpg" alt="Imagem 3">
+                <img src="/IMG/faculdade.jpg" alt="Imagem 4">
+                <img src="/IMG/Parque aq.jpg" alt="Imagem 5">
+                <img src="/IMG/Facul de montes claro.jpg" alt="Imagem 6">
+                <img src="/IMG/tunio.jpg" alt="Imagem 7">
+              
+
+            </div>
+
+            <div class="text-box" id="textBox">
+                Texto da imagem 1
+            </div>
+        </div>
+
+        <script>
+            const imagens = document.querySelectorAll("#galeria img");
+            const textBox = document.getElementById("textBox");
+
+            const textos = [
+                "Texto da imagem 1",
+                "Texto da imagem 2",
+                "Texto da imagem 3",
+                "Texto da imagem 4",
+                "Texto da imagem 5",
+                "Texto da imagem 6",
+                "Texto da imagem 7"
+            
+            ];
+
+            let atual = 0;
+
+            setInterval(() => {
+                imagens[atual].classList.remove("ativa");
+
+                atual = (atual + 1) % imagens.length;
+
+                imagens[atual].classList.add("ativa");
+
+                textBox.textContent = textos[atual];
+            }, 1000);
+        </script>
+
+</section>
+
+<nav>
+
+    <a href="/index.html"><button class="BOT">Voltar</button></a>
+</nav>
