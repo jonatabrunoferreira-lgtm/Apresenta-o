@@ -102,7 +102,7 @@
                 <img src="/IMG/Parque aq.jpg" alt="Imagem 5">
                 <img src="/IMG/Facul de montes claro.jpg" alt="Imagem 6">
                 <img src="/IMG/tunio.jpg" alt="Imagem 7">
-              
+
 
             </div>
 
@@ -116,14 +116,14 @@
             const textBox = document.getElementById("textBox");
 
             const textos = [
-                "Texto da imagem 1",
+                "Realizamos uma visita técnica a uma fazenda leiteira, onde tivemos a oportunidade de conhecer o processo de ordenha das vacas e o funcionamento dos equipamentos utilizados na produção de leite.",
                 "Texto da imagem 2",
                 "Texto da imagem 3",
                 "Texto da imagem 4",
                 "Texto da imagem 5",
                 "Texto da imagem 6",
                 "Texto da imagem 7"
-            
+
             ];
 
             let atual = 0;
@@ -136,11 +136,72 @@
                 imagens[atual].classList.add("ativa");
 
                 textBox.textContent = textos[atual];
-            }, 1000);
+            }, 10000);
         </script>
 
 </section>
+<section class="viagens-tecnicas">
+    <div class="conteudo">
+        <div class="texto">
+            <h2>Visitas </h2>
 
+
+            <style>
+                .container {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+                    max-width: 1000px;
+                    margin: 50px auto;
+                    padding: 20px;
+                }
+
+                .imagem {
+                    width: 50%;
+                }
+
+                .imagem img {
+                    width: 100%;
+                    border-radius: 10px;
+                }
+
+                .texto {
+                    width: 50%;
+                    font-family: Arial, sans-serif;
+                    text-align: justify;
+                }
+
+                h2 {
+                    color: #2c3e50;
+                }
+            </style>
+            </head>
+
+            <body>
+
+                <div class="container">
+
+                    <div class="imagem">
+                        <img src="/IMG/visita a igreja.jpg" alt="Visita a igreja matris.">
+                    </div>
+
+                    <div class="texto">
+                        <h2>Visita a igreja matris.
+                        </h2>
+                        <p>
+                            Durante a visita, tivemos a oportunidade de conhecer um importante patrimônio histórico e
+                            cultural da região. O grupo participou de momentos de aprendizado sobre a história, a
+                            arquitetura e a relevância do local para a comunidade.
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+
+        </div>
+</section>
 <nav>
 
     <a href="/index.html"><button class="BOT">Voltar</button></a>
