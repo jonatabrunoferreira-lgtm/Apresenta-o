@@ -121,5 +121,13 @@ span{color: rgb(0, 44, 138); ;
  font-size: 70px;
 
 }
-img{width:500 ;
-height:20 ;}
+
+img{
+
+background-size: cover;
+border-radius: 10px;
+box-shadow: 0 0 30px rgb(0, 0, 0);
+  }
+img:hover{transform: scale(1.1);
+ }
+
