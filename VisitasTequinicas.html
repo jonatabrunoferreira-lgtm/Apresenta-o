@@ -51,9 +51,6 @@
 
     </div>
     <style>
-
-
-
         .container {
             display: flex;
             align-items: center;
@@ -61,8 +58,8 @@
         }
 
         #galeria {
-            width: 500px;
-            height: 350px;
+            width: 800px;
+            height: 450px;
             position: relative;
         }
 
@@ -103,7 +100,7 @@
             </div>
 
             <div class="text-box" id="textBox">
-                
+
             </div>
         </div>
 
@@ -112,13 +109,14 @@
             const textBox = document.getElementById("textBox");
 
             const textos = [
+
                 "Visita São João Evangelista",
                 "Visita na parte da agropecuária",
                 "Visita na faculdade e Clube Pentaurea Agua",
                 "Visita na faculdade de Diamantina",
-                "",
-                "Texto da imagem 6",
-                "Texto da imagem 7"
+                "Visita na faculdade e Clube Pentaurea Agua",
+                "Visita na faculdae de Diamantina",
+                "Visita na Usina Hidreletrica de Itaipu"
 
             ];
 
@@ -132,14 +130,14 @@
                 imagens[atual].classList.add("ativa");
 
                 textBox.textContent = textos[atual];
-            }, 10000);
+            }, 1000);
         </script>
 
 </section>
 <section class="viagens-tecnicas">
     <div class="conteudo">
         <div class="texto">
-            <h2>Visitas </h2>
+            <h2>Visitas Locais</h2>
 
 
             <style>
@@ -148,21 +146,21 @@
                     align-items: center;
                     gap: 20px;
                     max-width: 1000px;
-                    margin: 50px auto;
+                    margin: 150px;
                     padding: 20px;
                 }
 
                 .imagem {
-                    width: 50%;
+                    width: 90%;
                 }
 
                 .imagem img {
-                    width: 100%;
+                    width: 90%;
                     border-radius: 10px;
                 }
 
                 .texto {
-                    width: 50%;
+                    width: 100%;
                     font-family: Arial, sans-serif;
                     text-align: justify;
                 }
@@ -175,10 +173,10 @@
 
             <body>
 
-                <div class="container">
+                <div class="continer">
 
-                    <div class="imagem">
-                        <img src="/IMG/visita a igreja.jpg" alt="Visita a igreja matris.">
+                    <div>
+                        <img class="img2" src="/IMG/visita a igreja.jpg" alt="Visita a igreja matris.">
                     </div>
 
                     <div class="texto">
@@ -192,7 +190,7 @@
                     </div>
 
                 </div>
-
+            </body>
 
 
 
